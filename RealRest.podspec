@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'RealRest'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'Controller executor'
   s.description      = <<-DESC
  Part of the Controller in modern MVC                       
@@ -17,6 +17,6 @@ Pod::Spec.new do |s|
 
   s.dependency 'Alamofire', '4.7.3'
   s.dependency 'BrightFutures', '7.0.0'
-  s.dependency 'EVReflection', '5.7.0'
+  s.dependency 'EVReflection', '5.10.1'
   s.dependency 'MBProgressHUD', '1.1.0'
 end
